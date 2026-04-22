@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Лабораторна робота 5</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Інженерія програмного забезпечення</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="./index.html">Головна</a></li>
+                <li><a href="./competencies.html">Компетенції</a></li>
+                <li><a href="./components.html">Компоненти</a></li>
+                <li><a href="./graph.html">Схема</a></li>
+                <li><a href="./team.html">Розробники</a></li>
+                <li><a href="./reports.html">Звіти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <p class="subtitle">Рівень вищої освіти: другий (магістерський)</p>
+        <p class="subtitle">Галузь знань: 12 - Інформаційні технології</p>
+        <p class="subtitle">Спеціальність: 121 - Інженерія програмного забезпечення</p>
+        <h2 id="meta">Мета освітньої програми</h2>
+        <p>Метою ОП є забезпечення підготовки висококваліфікованих фахівців в галузі інформаційних технологій зі спеціальності 121 «Інженерія програмного забезпечення», здатних формулювати і розв'язувати складні науково-дослідні та прикладні проблеми в області теоретичних аспектів інформаційних та програмних технологій, побудови новітніх формальних моделей та методів, розробки, впровадження та супроводу програмного забезпечення та сервісів, що передбачає проведення досліджень нафтогазової предметної області та впровадження в ній інноваційних методик, методологій та засобів, орієнтованих на знання, в контекстах технології цифрових родовищ.</p>
+        <h2>Профіль освітньої програми</h2>
+        <div class="frame-container">
+            <iframe class="frame"
+                src="https://drive.google.com/file/d/1exKYX_iMsE10HSFc_SgMNmQdQeIf2hjn/preview"
+                description="Профіль освітньої програми ІПЗ">
+            </iframe>
+        </div>
+        <div class="frame-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bVwK8GilNeQ?si=zjGofmvi5b62P3HE " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                           
+        </div>
+        <h2>Швидка консультація</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="pib">ПІБ</label>
+                <input type="text" id="pib" name="pib" placeholder="Введіть ваше ПІБ" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" placeholder="+380XXXXXXXXX"
+                    pattern="\+380[0-9]{9}" title="Формат: +380XXXXXXXXX" required>
+            </div>
+            <div class="form-group">
+                <label for="calltime">Час дзвінка</label>
+                <input type="time" id="calltime" name="calltime" min="09:00" max="18:00" required>
+                <small>Години прийому: 09:00 – 18:00</small>
+            </div>
+            <button type="submit">Надіслати</button>
+        </form>
+    </main>
+    <footer>
+        <p>Федорів І.З. © ІФНТУНГ, 2026 р.</p>
+    </footer>
+</body>
+</html>
